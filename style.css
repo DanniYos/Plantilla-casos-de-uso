@@ -1,0 +1,103 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(2,199,238,1) 51%, rgba(9,9,121,1) 84%);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-radius{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 2%;
+}
+
+.tabla-encabezado {
+    border-collapse: collapse; 
+    width: 100%;
+    background-color: white;
+}
+
+.subtitulo-encabezado {
+    border: 1px solid black; 
+    padding: 5px; 
+    width: 20%;
+}
+
+.descripcion{
+    border: 1px solid black; 
+    padding: 1px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-descripcion{
+    border: none;
+    width: 100%;
+    resize: none; 
+    overflow: hidden; 
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+#codigo-formulario {
+    border: none;
+    width: 15%;
+}
+
+.tabla-central{
+    border: 1px solid black;
+    border-collapse: collapse; 
+    background-color: white;
+}
+
+.descripcion-central{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.input-central{
+    border: none;
+    width: 100%;
+    resize: none; 
+    overflow: hidden; 
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+#button{
+    width: 35%;
+    height: 40px ;
+}
+
+.contenedor-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.text-first{
+    border: none;
+    width: 45.8%;
+    resize: none; 
+    overflow: hidden; 
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+@media print {
+    #button {
+        display: none;
+    }
+}
