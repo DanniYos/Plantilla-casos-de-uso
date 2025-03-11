@@ -88,12 +88,21 @@ body{
 
 .text-first{
     border: none;
-    width: 45.8%;
+    width: 40%;
     resize: none; 
     overflow: hidden; 
     padding: 0;
     margin: 0;
+}
+
+.descripcion-cont{
+    display: flex;
+    justify-content: space-between;
     vertical-align: top;
+}
+
+#text-first{
+    width: 20%;
 }
 
 @media print {
