@@ -98,7 +98,7 @@ body{
 .descripcion-cont{
     display: flex;
     justify-content: space-between;
-    vertical-align: top;
+    border-top: 1px solid black;
 }
 
 #text-first{
